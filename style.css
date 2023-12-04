@@ -1,0 +1,159 @@
+#heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    filter: drop-shadow(0px 4px 4px rgb(224, 224, 224));
+}
+
+nav ul{
+    column-gap: 20px;
+}
+
+nav ul li, nav a{
+    cursor: pointer;
+}
+
+nav img{
+    width: 8%;
+    height: 8%;
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    justify-content: center;
+}
+
+.titre h1 {
+    background-color: black;
+    color: white;
+    width: 110%;
+}
+
+.titre h4 {
+    padding-left: 20px;
+}
+
+#heading img {
+    width: 25%;
+}
+
+#content1 {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+#content1 img {
+    width: 35%;
+    height: 35%;
+}
+
+.Ar{
+    width: 300px;
+    margin-top: -20px;
+}
+
+.text1{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.text2{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.text3{
+    font-size: 10px;
+}
+
+.li{
+    font-size: 10px;
+}
+
+.Ar li{
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer{
+    background-color: #676767;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    align-items: center;
+}
+
+#footer img{
+    width: 8%;
+    padding-top: 40px;
+}
+
+.socialmedia{
+    display: flex;
+    align-items: flex-end;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail h3{
+    color: white;
+    font-weight: 300px;
+}
+
+.copy{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.lian{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#fb,
+#tw,
+#in,
+#be{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+#fb{
+    background-image: url(social.png);
+    left: 100px;
+}
+
+#tw{
+    background-image: url(social.png);
+    left: 150px;
+    background-position: -50px 0px;
+}
+
+#in{
+    background-image: url(social.png);
+    left: 200px;
+    background-position: -100px 0px;
+}
+
+#be{
+    background-image: url(social.png);
+    left: 250px;
+    background-position: -150px 0px;
+}
